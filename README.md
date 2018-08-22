@@ -7,9 +7,9 @@ Converts the color scheme of an rgb video to a new color map. Designed to proces
 
 ### setup
 
-ensure you have python2.7 and virtualenv installed
+ensure you have python3 and virtualenv installed
 
-* [install python2.7](https://www.python.org/downloads/)
+* [install python3](https://www.python.org/downloads/)
 * [install pip](https://pip.pypa.io/en/stable/installing/)
 * `pip install virtualenv`
 
@@ -17,7 +17,7 @@ one these requirements are handled run the below code to set up a
 virtual-environment with all needed requirements 
 
 ```
-virtualenv venv --python=python2.7
+virtualenv venv --python=python3
 source venv/bin/activate
 pip install -r requirements.txt
 ```

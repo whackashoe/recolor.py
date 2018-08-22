@@ -65,7 +65,7 @@ while success:
 writer.release()
 
 if args.output:
-    print "file saved to {}".format(args.output)
+    print("file saved to {}".format(args.output))
 
 if args.window:
     cv2.destroyAllWindows()
